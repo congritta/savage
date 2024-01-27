@@ -1,0 +1,31 @@
+{
+  "name": "@congritta/savage",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  },
+  "description": "Modern and minimal REST API framework",
+  "keywords": [
+    "http", "backend", "api", "rest", "crud", "server", "web", "router"
+  ],
+  "author": {
+    "name": "Alex Congritta",
+    "email": "congritta@gmail.com",
+    "url": "https://congritta.com"
+  },
+  "homepage": "https://congritta.github.io/savage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/congritta/savage"
+  },
+  "scripts": {
+    "dev": "bash scripts/dev.sh",
+    "start": "bash scripts/start.sh",
+    "build": "bash scripts/build.sh"
+  }
+}
